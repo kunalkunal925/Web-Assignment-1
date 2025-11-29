@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Coffee Menu</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #faf7f3 url('https://www.transparenttextures.com/patterns/arabesque.png') repeat;
+      padding: 40px 20px;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 1100px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 20px 30px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px 25px;
+      box-shadow: 0 4px 15px rgb(0 0 0 / 0.07);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 130px;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    .card-header b {
+      font-weight: 700;
+      font-size: 17px;
+      color: #222;
+    }
+    .price {
+      font-weight: 700;
+      font-size: 17px;
+      color: #b28704; /* golden shade */
+    }
+    .card-desc {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #666;
+    }
+    @media (max-width: 400px) {
+      .card {
+        padding: 15px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <b>Cappuccino</b>
+        <span class="price">$49</span>
+      </div>
+      <p class="card-desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <b>Americano</b>
+        <span class="price">$49</span>
+      </div>
+      <p class="card-desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <b>Espresso</b>
+        <span class="price">$49</span>
+      </div>
+      <p class="card-desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <b>Macchiato</b>
+        <span class="price">$49</span>
+      </div>
+      <p class="card-desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <b>Mocha</b>
+        <span class="price">$49</span>
+      </div>
+      <p class="card-desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <b>Coffee Latte</b>
+        <span class="price">$49</span>
+      </div>
+      <p class="card-desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <b>Piccolo Latte</b>
+        <span class="price">$49</span>
+      </div>
+      <p class="card-desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <b>Ristretto</b>
+        <span class="price">$49</span>
+      </div>
+      <p class="card-desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <b>Affogato</b>
+        <span class="price">$49</span>
+      </div>
+      <p class="card-desc">Usage of the Internet is becoming more common due to rapid advance.</p>
+    </div>
+  </div>
+
+</body>
+</html>
